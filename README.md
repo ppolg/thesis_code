@@ -44,3 +44,22 @@ NUGA_multispecies_2:
 •	save_all(): Reads all previous returned outputs and saves all tables and figures in a subfolder based on the species shorthand. 
 
 •	analyse_overlaps(): Main function that runs all the previous functions sequentially. Also saves the full list as an RDS file for future reading and utilisation.
+
+
+
+
+NUGA_compare2:
+•	read_full(): Reads an RDS file from NUGA_multispecies_2
+
+•	read_all(): Reads all previous RDS files
+
+•	process_tables():Iterate through read RDS files to collate specific values into separate, merged tables. 
+
+•	plot_merged(): Plots figures from above
+
+•	calc_NUGA_percents(): Calculates NUGA percentages
+
+
+
+
+
