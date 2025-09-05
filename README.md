@@ -67,5 +67,9 @@ Code assoicated with analysis of nanopore sequencing is available at https://git
 ### qRT_analysis:
 •	contains code related to brief analysis of qRT-PCR of RofZ KD
 
+### mycopore_init:
+•	contains themes, colours, plotting settings, shorthands etc.
+
+
 
 
