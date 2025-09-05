@@ -1,6 +1,6 @@
 # Complexities of transcriptional and post-transcriptional control in mycobacteria
 
-Code associated with my PhD thesis, regarding analysis of short overlaps in mycobacteria.
+Code associated with my PhD thesis, primarily regarding analysis of short overlaps in mycobacteria.
 
 Previously published code, associated with analysis of Term-seq is available at https://github.com/ppolg/Mtb_termseq
 
@@ -49,6 +49,7 @@ NUGA_multispecies_2:
 
 
 NUGA_compare2:
+
 •	read_full(): Reads an RDS file from NUGA_multispecies_2
 
 •	read_all(): Reads all previous RDS files
@@ -60,6 +61,14 @@ NUGA_compare2:
 •	calc_NUGA_percents(): Calculates NUGA percentages
 
 
+
+
+find_SD:
+
+•	Compares and contrasts different methodologies of detecting and picking up RBSs. Tests include consecutive purines with/without mismatch, and different pairings to anti-SD. Also contains random controls. Plots QC figures including deltaG and distance to RBS.
+
+qRT_analysis:
+•	contains code related to brief analysis of qRT-PCR of RofZ KD
 
 
 
