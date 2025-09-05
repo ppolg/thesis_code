@@ -1,5 +1,5 @@
 # PhD Final Stretch: Check uORF NUGA PPE
-
+#   • NOTE: not included in final thesis, here for posterity's sake.
 ###########################################################################
 
 ########
