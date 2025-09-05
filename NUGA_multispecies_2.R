@@ -1,12 +1,11 @@
-#_________________________________________________________________
 
 # PhD Final Stretch: Analysis for multiple organisms
 # Updated with Sd finding and others
 # Does not use git after all - too much work, not enough time.
 
-#   • Make functions for importing multiple gff/fasta
-#   • Make functions for finding overlaps and drawing base figures
-#_________________________________________________________________
+#   • Reads NUGA_multispecies outputs
+#   • Performs analysis 
+###########################################################################
 
 
 #### Libs ####
