@@ -1,5 +1,15 @@
-# thesis_code
-Code associated with the PhD thesis
+# Complexities of transcriptional and post-transcriptional control in mycobacteria
+
+Code associated with my PhD thesis, regarding analysis of short overlaps in mycobacteria.
+
+Previously published code, associated with analysis of Term-seq is available at https://github.com/ppolg/Mtb_termseq
+
+Code assoicated with analysis of nanopore sequencing is available at https://github.com/ppolg/mycopore
+
+
+
+
+
 
 main:
 
