@@ -1,4 +1,3 @@
-###########################################################################
 
 # PhD Final Stretch: testing riboseq coverage per SD binding calcs
 #   • NOTE: not included in final thesis, here for posterity's sake.
