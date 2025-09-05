@@ -1,6 +1,8 @@
-# Attempts to better find SD from gff
-# Will mostly use NUGA_multispecies code I think
+# PhD Final Stretch: Comparisons between organisms
 
+#   • Attempts to better find SD from gff
+#   • Will mostly use NUGA_multispecies code I think 
+###########################################################################
 
 ########
 # Libs #
