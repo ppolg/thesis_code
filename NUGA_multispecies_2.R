@@ -3,8 +3,9 @@
 # Updated with Sd finding and others
 # Does not use git after all - too much work, not enough time.
 
-#   • Reads NUGA_multispecies outputs
+#   • Reads fasta/gff/hive table
 #   • Performs analysis 
+#   • churns out way too many tables and figures to include
 ###########################################################################
 
 
