@@ -11,7 +11,7 @@ Code assoicated with analysis of nanopore sequencing is available at https://git
 
 
 
-main:
+NUGA_multispecies_2:
 
 •	fix_codon_table(): reads in the raw download of codon table usage from DNA HIVE and reformats it to be usable in downstream steps. This is conditionally called in the final wrapper or the initial read function to allow for usage of files from DNA HIVE directly. Returns a codon usage table as a data.frame object.
 
