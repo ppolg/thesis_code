@@ -1,5 +1,8 @@
 
-# Quick qRT ddCt
+# PhD Final Stretch: Analysis for multiple organisms
+#   • Quick qRT ddCT
+
+###########################################################################
 
 ########
 # Func #
