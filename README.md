@@ -34,7 +34,8 @@ Code assoicated with analysis of nanopore sequencing is available at https://git
 
 •	_check_multi_P_seq()_: Analyses the proline codon distribution of the last codons of 1- and 4-nucleotide overlaps (read from the output of the do_last10() function). For 1nt, 4nt subsets both with and without detected RBS (as defined in the subset_overlaps() function), counts the number of the four proline-encoding codons (CCT, CCG, CCA, CCC) and plots their relative abundance in each subset onto a bar chart that is subsequently printed and returned. 
 
-•	_calc_NUGA_RER()_: calculates the “relative enrichment ratio” (RER) of both URRUG and NUGA overlaps, which indicates the enrichment of the last codons of ORFs (just prior the stop codon) compared to all ORFs. RER is normalised to sequence exclusions (such as the absence of CUGA overlaps) and is expressed as a log2-fold enrichment. The function also performs hypergeometric statistical tests with BH FDR corrections and plots the enrichment distributions as bar charts and volcano plots.
+•	_calc_NUGA_RER()_: calculates the “relative enrichment ratio” (RER) of both URRUG and NUGA overlaps, which indicates the enrichment of the last codons of ORFs (just prior the stop codon) compared to all ORFs. It is calculated as the ratio of specific codons in the last position for overlap _versus_ all ORFs.
+RER is also normalised to sequence exclusions (such as the absence of CUGA overlaps) and is expressed as a non-log enrichment. The function also performs hypergeometric statistical tests with BH FDR corrections and plots the enrichment distributions as bar charts and volcano plots.
 
 •	_show_stop()_: finds the stop codons and creates figures of their distribution, both as a bar and as a pie chart.
 
