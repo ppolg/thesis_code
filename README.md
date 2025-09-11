@@ -14,6 +14,8 @@ The FreeAlign.pm perl module is Copyright (C) 2004, Joshua Starmer, used as part
 
 ### NUGA_multispecies_2:
 
+Baseline overlapping ORF analysis pipeline. Output per species is available in the NUGA_Out folder
+
 •	_fix_codon_table()_: reads in the raw download of codon table usage from DNA HIVE and reformats it to be usable in downstream steps. This is conditionally called in the final wrapper or the initial read function to allow for usage of files from DNA HIVE directly. Returns a codon usage table as a data.frame object.
 
 •	_get_gff_input()_: gets a GFF input from a folder and conditionally filters it. Only used as part of the following function.
