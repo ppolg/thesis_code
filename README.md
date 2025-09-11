@@ -64,15 +64,15 @@ RER is also normalised to sequence exclusions (such as the absence of CUGA overl
 
 
 ### find_SD:
-
-•	Compares and contrasts different methodologies of detecting and picking up RBSs. Tests include consecutive purines with/without mismatch, and different pairings to anti-SD. Also contains random controls. Plots QC figures including deltaG and distance to RBS.
+Compares and contrasts different methodologies of detecting and picking up RBSs. Tests include consecutive purines with/without mismatch, and different pairings to anti-SD. Also contains random controls. Plots QC figures including deltaG and distance to RBS.
 
 
 ### qRT_analysis:
-•	contains code related to brief analysis of qRT-PCR of RofZ KD. 
+Contains code related to brief analysis of qRT-PCR of RofZ KD. 
+
 
 ### mycopore_init:
-•	contains themes, colours, plotting settings, shorthands etc.
+Contains themes, colours, plotting settings, shorthands etc.
 
 
 
