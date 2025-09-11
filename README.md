@@ -50,16 +50,15 @@ RER is also normalised to sequence exclusions (such as the absence of CUGA overl
 
 ### NUGA_compare2:
 
-•	_read_full()_: Reads an RDS file from NUGA_multispecies_2
+•	_read_full()_: Reads an RDS file from NUGA_multispecies_2. Also calculates GC content for downstream comparative analysis
 
-•	_read_all()_: Reads all previous RDS files
+•	_read_all()_: Reads multiple RDS files based on a list by calling _read_full()_, return a table of tables
 
-•	_process_tables()_:Iterate through read RDS files to collate specific values into separate, merged tables. 
+•	_process_tables()_:Iterate through read RDS files (_i.e._ the table of tables from _read_all()_) to collate specific values into separate, merged tables. Essentially refactors previous datasets around comparable characteristics, to allow for plotting 
 
-•	_plot_merged()_: Plots figures from above
+•	_plot_merged()_: Plots figures from _process_tables()_
 
-•	_calc_NUGA_percents()_: Calculates NUGA percentages
-
+•	_calc_NUGA_percents()_: Calculates NUGA percentages for overlaps (i.e. the % of overlaps that fit the subsets defined by _NUGA_multies_2.R_. Also makes comparative figures and prints them
 
 
 ### find_SD:
@@ -68,7 +67,7 @@ RER is also normalised to sequence exclusions (such as the absence of CUGA overl
 
 
 ### qRT_analysis:
-•	contains code related to brief analysis of qRT-PCR of RofZ KD
+•	contains code related to brief analysis of qRT-PCR of RofZ KD. 
 
 ### mycopore_init:
 •	contains themes, colours, plotting settings, shorthands etc.
