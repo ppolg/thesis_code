@@ -8,6 +8,8 @@ Previously published code, associated with analysis of Term-seq is available at 
 
 Code assoicated with analysis of nanopore sequencing is available at https://github.com/ppolg/mycopore
 
+The FreeAlign.pm perl module is Copyright (C) 2004, Joshua Starmer, used as part of the pipeline under the GNU General Public License.
+
 ## Code:
 
 ### NUGA_multispecies_2:
